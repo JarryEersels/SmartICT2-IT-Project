@@ -1,2 +1,5 @@
+[all:vars]
+ansible_user: smartict2
+ansible_become: yes
 [servers]
 172.16.0.5
