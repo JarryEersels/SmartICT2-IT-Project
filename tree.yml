@@ -1,6 +1,6 @@
 ---
   - name: Installing Tree
-    hosts: servers
+    hosts: localhost
     gather_facts: true
     become: yes
   
